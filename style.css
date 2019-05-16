@@ -73,10 +73,12 @@ header a {
     color: black;
 }
 
+
+
 /* Add everything below here */
 
 #hero {
-    background-color: rgb(50, 47, 78);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('https://github.com/char55/char55.github.io/blob/master/stars.jpg?raw=true');
 }
 
 #about {}

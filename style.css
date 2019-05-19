@@ -77,11 +77,13 @@ header a {
 
 /* Add everything below here */
 
-#hero {
+#about {
     background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('https://github.com/char55/char55.github.io/blob/master/stars.jpg?raw=true');
 }
 
-#about {}
+#hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('https://github.com/char55/char55.github.io/blob/master/backlit-clouds.jpg?raw=true');
+}
 
 #contact {
     background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://github.com/char55/char55.github.io/blob/master/caffeineHug.jpg?raw=true');

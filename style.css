@@ -12,12 +12,14 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
+    background-color: black;
+
 }
 
 header * {
     display: inline;
     height: 50px;
+    color: white !important;
 }
 
 header ul {

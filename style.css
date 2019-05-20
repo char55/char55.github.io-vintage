@@ -77,10 +77,6 @@ header a {
 
 /* Add everything below here */
 
-#about {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('https://github.com/char55/char55.github.io/blob/master/stars.jpg?raw=true');
-}
-
 #hero {
     background-color: black;
     background-image:
@@ -91,6 +87,22 @@ header a {
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     color: white;
+    background-repeat: repeat;
+}
+
+
+#about {
+    background-color: #6d695c;
+    background-image:
+        repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
+        repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
+        linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
+        linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
+    background-size: 70px 120px;
+
+    background-repeat: repeat;
+    font-size: 130%;
+
 }
 
 #contact {

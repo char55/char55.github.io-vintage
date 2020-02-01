@@ -46,6 +46,14 @@ section {
     /* Add this line */
     background-attachment: fixed;
     /* Add this line */
+
+}
+#projects section {
+    height: 120vh;
+}
+
+#contact section{
+    height: 80vh;
 }
 
 #hero .profile-img {
